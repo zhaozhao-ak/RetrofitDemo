@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </ScrollView>
+
+
+    <Button
+        android:text="Get请求"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:onClick="getTest"
+        android:layout_height="50dp" />
+
+    <Button
+        android:text="post请求"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:onClick="postTest"
+        android:layout_height="50dp" />
+    <Button
+        android:text="post上传文档"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:onClick="postFile"
+        android:layout_height="50dp" />
+
+
+    </LinearLayout>
