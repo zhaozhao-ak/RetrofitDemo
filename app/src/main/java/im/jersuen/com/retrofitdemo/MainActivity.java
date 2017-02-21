@@ -63,12 +63,12 @@ public class MainActivity extends AppCompatActivity {
                 //传化后的实体对象
                 Msg msg = gson.fromJson(result, Msg.class);
                 //提示实体对象中的信息
-//                Toast.makeText(MainActivity.this, msg.getMsgText(), Toast.LENGTH_LONG).show();
+//                Toast.makeText(NewMainActivity.this, msg.getMsgText(), Toast.LENGTH_LONG).show();
             }
 
             @Override
             public void onFailure(Call<String> call, Throwable t) {
-//                Toast.makeText(MainActivity.this, "post失败", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(NewMainActivity.this, "post失败", Toast.LENGTH_SHORT).show();
                 System.out.println("zhao---post-失败-result = ");
 
             }
